@@ -1,0 +1,2 @@
+it shows username, email, status
+the status can be active or suspend, when we suspend the account it will change the status from active to suspend

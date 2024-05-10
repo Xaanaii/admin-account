@@ -1,0 +1,77 @@
+/* PropertyUpdatePage.css */
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333333;
+  }
+  
+  input[type="text"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333333;
+    margin-top: 5px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+  }
+  
+  .update-button,
+  .cancel-button {
+    padding: 14px 32px;
+    margin-right: 16px;
+    background-color: #008489;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+  }
+  
+  .cancel-button {
+    background-color: #ffffff;
+    color: #008489;
+    border: 1px solid #008489;
+  }
+  
+  .update-button:hover,
+  .cancel-button:hover {
+    background-color: #007075;
+  }
+  
